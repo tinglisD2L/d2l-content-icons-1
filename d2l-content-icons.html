@@ -5,6 +5,14 @@
 
 <dom-module id="d2l-content-icons">
 	<template>
+		<style>
+			d2l-sound-bar-icon,
+			d2l-file-icon,
+			d2l-google-drive-icon,
+			d2l-one-drive-icon {
+				display: flex;
+			}
+		</style>
 		<template is="dom-if" if="[[ _isExpectedIconName(icon, 'sound-bar') ]]">
 			<d2l-sound-bar-icon compact$="[[ compact ]]"/>
 		</template>
@@ -16,7 +24,7 @@
 		</template>
 		<template is="dom-if" if="[[ _isExpectedIconName(icon, 'one-drive') ]]">
 			<d2l-one-drive-icon compact$="[[ compact ]]"/>
-		</template>			
+		</template>
 	</template>
 	<script>
 		Polymer({

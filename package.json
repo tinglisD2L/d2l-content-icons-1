@@ -7,7 +7,6 @@
     "postinstall": "polymer install --variants",
     "start": "polymer serve -p 9998",
     "test": "polymer test",
-    "test:local": "polymer test -p",
     "posttest": "npm run lint"
   },
   "repository": {

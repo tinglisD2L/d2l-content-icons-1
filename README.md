@@ -1,4 +1,5 @@
 # d2l-content-icons
+[![CircleCI](https://circleci.com/gh/Brightspace/d2l-content-icons.svg?style=svg)](https://circleci.com/gh/Brightspace/d2l-content-icons)
 
 Polymer components which holds shared icons. 
 Supported icons: 

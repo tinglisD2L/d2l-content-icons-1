@@ -2,6 +2,7 @@
 <link rel="import" href="./d2l-file-icon.html">
 <link rel="import" href="./d2l-google-drive-icon.html">
 <link rel="import" href="./d2l-one-drive-icon.html">
+<link rel="import" href="./d2l-open-one-drive-icon.html">
 <link rel="import" href="./d2l-folio-app-icon.html">
 <link rel="import" href="./d2l-scorm-icon.html">
 
@@ -26,6 +27,9 @@
 		</template>
 		<template is="dom-if" if="[[ _isExpectedIconName(icon, 'one-drive') ]]">
 			<d2l-one-drive-icon compact$="[[ compact ]]"/>
+		</template>
+		<template is="dom-if" if="[[ _isExpectedIconName(icon, 'open-one-drive') ]]">
+			<d2l-open-one-drive-icon compact$="[[ compact ]]"/>
 		</template>
 		<template is="dom-if" if="[[ _isExpectedIconName(icon, 'folio-app') ]]">
 			<d2l-folio-app-icon compact$="[[ compact ]]"/>
